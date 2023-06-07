@@ -59,7 +59,33 @@ nav .sideMenuButton {
     cursor: pointer;
     display: none;
 }
-  
+  /* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
 /* responsive navbar css */
 @media screen and (max-width: 600px) {
     nav .sideMenuButton {
@@ -208,7 +234,8 @@ section .topic a {
 }
   
 /* Contact Page  */
-  
+  body }
+
 .contact {
     padding: 20px;
 }
@@ -233,10 +260,11 @@ section .topic a {
 .contactMenu {
     display: flex;
     justify-content: space-evenly;
+    align center: margin-left;
 }
   
 .input2 {
-    margin-top: 10;
+    margin-top: 0;
 }
   
 .label1 {
@@ -249,6 +277,7 @@ section .topic a {
 .contactMenu .input1 input {
     border-radius: 13px;
     padding: 6px;
+    align center: margin-left;
 }
   
 .input2 input {
@@ -566,3 +595,4 @@ input[type=submit]:hover {
     margin-top: 0;
   }
 }
+
